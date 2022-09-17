@@ -12,5 +12,4 @@ public interface EmployeeRepository extends MongoRepository<Employee, String> {
 
     List<Employee> findByFirstNameLike(String firstName);
 
-
 }
